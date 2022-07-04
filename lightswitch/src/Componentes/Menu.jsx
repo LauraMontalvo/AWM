@@ -1,13 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import LightSwitch from './Componentes/LightSwitch';
 import Menu from './Componentes/Menu';
+import React from 'react';
+
+
 
 function App() {
   return (
     <div className="App">
-      <LightSwitch/>
-      <Menu/>
+      <Menu>
+         <ul>
+          <li> Home</li>
+          <li> Products</li>
+          <li> Contact us</li>
+        </ul>
+      </Menu>
+
     </div>
   );
 }
